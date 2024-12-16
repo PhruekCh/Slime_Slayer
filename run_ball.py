@@ -203,7 +203,7 @@ class BouncingSimulator:
             print("Restarting the game...")  # Debug message
             self.is_paused = False
             self.screen.clear()
-            self.__init__(self.num_balls, 1.2, "pics/hutao.gif",
+            self.__init__(self.num_balls, 1.5, "pics/hutao.gif",
                           3)  # Reinitialize the simulator
             heapq.heappush(self.pq, my_event.Event(
                 0, None, None))  # Add an initial event
@@ -242,7 +242,7 @@ class BouncingSimulator:
 
             # Create new instance with updated attributes
             new_ball_count = 5 + (self.current_level // 2) + self.current_level
-            initial_speed = 1.2 + (0.1 * self.current_level * 2)
+            initial_speed = 1.5 + (0.1 * self.current_level * 2)
             new_simulator = BouncingSimulator(
                 num_balls=new_ball_count,
                 initial_speed=initial_speed,
@@ -346,7 +346,7 @@ class BouncingSimulator:
 # Main execution
 if __name__ == "__main__":
     num_balls = 5
-    initial_speed = 1.2  # Adjust speed
+    initial_speed = 1.5  # Adjust speed
     avatar_gif = "pics/hutao.gif"  # Path to avatar sprite
     cooldown_time = 3  # Cooldown for avatar attack
     simulator = BouncingSimulator(
