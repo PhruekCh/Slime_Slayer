@@ -1,5 +1,7 @@
 import turtle
 import time
+
+
 class Animated:
     def __init__(self, screen, frames, x=0, y=0):
         """Initialize the Animated object."""
