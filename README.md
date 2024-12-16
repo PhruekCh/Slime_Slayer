@@ -1,4 +1,4 @@
-# The Slayer
+# Slime Slayer
 
 ### Project description
 This is a game simulation, The game rules are you need to eliminate all slimes collide each other and the arena, in order to go to the next level.
@@ -18,7 +18,8 @@ git fork then git pull.
 run on file named "run_ball.py"
 
 ### Usage
-Youtube Link: 
+Youtube Link:
+
 When starting the game by running the "run_ball.py"
 - 3 lives will be given. If those ran out, you will need to restart the game from pause menu that will pop up.
 - When losing life you will have 4 seconds to be invincible to recover from their attacks.
