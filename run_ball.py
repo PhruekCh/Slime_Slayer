@@ -301,6 +301,7 @@ class BouncingSimulator:
             lambda: self.avatar.attack(self.remove_balls)), "e")
         # Bind 'R' for restart during pause
         self.screen.onkeypress(self.restart_game, "r")
+        # Bind 'N' to go to the next level
         self.screen.onkeypress(self.start_next_level, "n")
 
         while True:
